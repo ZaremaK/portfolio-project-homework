@@ -1,0 +1,107 @@
+:root {
+    --main-color: #0A4845;
+    --border-radius: 4px;
+    --secondary-color: #F4FEFD;
+}
+
+body {
+    text-align: center;
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    padding: 30px;
+}
+
+h1 {
+   
+    font-weight: bold;
+    
+    font-size: 5vh;
+    line-height: 48px;
+}
+
+h1 h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #231d3c;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.logo {
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--main-color);
+    
+}
+
+.email:hover {
+    font-size: 120%;
+    color: cornflowerblue;
+    text-decoration: underline;
+    
+}
+
+.img-col {
+    background-color: var(--secondary-color);
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+#b-contact,  #b-about{
+    background-color: var(--main-color);
+    color: white;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+#b-contact:hover, #b-about:hover{
+ 
+    color: var(--main-color);
+    transition: 0.2s 0.1s;
+    background-color: rgb(255,255,255);
+}
+#b-app {
+    color: var(--main-color);
+    transition: 0.2s;
+
+}
+
+.buttons-link {
+    margin: 20px;
+    padding: 10px 20px;
+    border: 3px solid var(--main-color);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+}
+#b-app:hover {
+ 
+    color: rgb(255,255,255);
+    transition: 0.2s 0.1s;
+    background-color: var(--main-color);
+}
+.home-columns {
+    text-align: left;
+    padding: 30px;
+}
+
+#image-home {
+    max-width: 100%;
+    padding: 50px;
+}
